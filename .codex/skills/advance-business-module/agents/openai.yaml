@@ -1,0 +1,7 @@
+interface:
+  display_name: "业务模块推进"
+  short_description: "按资料池继承既有规则，稳定推进骨科业务模块全流程设计"
+  default_prompt: "使用 $advance-business-module 读取当前资料池，并从已确认阶段继续推进指定业务模块。"
+
+policy:
+  allow_implicit_invocation: true

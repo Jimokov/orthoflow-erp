@@ -1,0 +1,48 @@
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# Local logs and temporary output
+*.log
+*.tmp
+*.temp
+.codex-log/
+tmp/
+temp/
+
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local-only or sensitive working data
+private/
+local-data/
+exports/
+
+# Common future build caches; project source remains tracked
+node_modules/
+dist/
+build/
+coverage/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE-local configuration
+.idea/
+.vscode/
+
+# Keep the project Codex workflow and skill under version control
+!.codex/
+!.codex/skills/
+!.codex/skills/**
