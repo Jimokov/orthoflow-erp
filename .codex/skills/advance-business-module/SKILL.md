@@ -67,6 +67,10 @@ description: Safely start, continue, question, review, design, implement, or acc
 
 同一补丁同时包含通用方法与项目特有规则时，必须拆分；不得为了“保持同步”把任一部分复制进另一条规则线。判别卡是变更前闸门，不得在已写入或已提交后补填。
 
+### 版本批次治理
+
+同一轮治理中相互关联、共同解决一个治理问题的兼容性变更，必须合并为一个版本发布；已发布版本之后出现新的独立需求，才递增中间位；未发布前不得为同一治理目标连续创建多个中间版本。该规则同时适用于 Skill 仓库版本与项目锁定版本。
+
 ## 4. 按风险建议模型档位
 
 当任务跨度较大、用户关心成本，或即将执行硬闸门时，读取 [references/model-routing.md](references/model-routing.md)。

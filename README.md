@@ -2,7 +2,7 @@
 
 > 更新时间：2026-08-24
 >
-> 当前事实截止：手术通知 APP 业务资料同步至 2026-08-25；手术植入 APP 已完成历史迁移并确认 R-01—R-06；项目 Skill 锁定为 `advance-business-module@v0.9.0`（见 `docs/governance/Skill版本锁定.md`）
+> 当前事实截止：手术通知 APP 业务资料同步至 2026-08-25；手术植入 APP 已完成历史迁移并确认 R-01—R-06；项目 Skill 锁定为 `advance-business-module@v0.11.0`（见 `docs/governance/Skill版本锁定.md`）
 >
 > 本页身份：项目级唯一当前看板。业务事实仍以范围登记和各模块总池为准。
 
