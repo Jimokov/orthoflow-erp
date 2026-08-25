@@ -1,7 +1,7 @@
-# SHA-256 manifest for advance-business-module@0.11.0
+# SHA-256 manifest for advance-business-module@0.11.1
 2671cc2716e7b53f44629c2eb4973c6c7387b576ccc634525e1e230be2e034a9  agents/openai.yaml
 2d5143b2590741b7f74a015a6bfd79acb1aeaa35eca045d8b5966bee0a64bcc4  references/model-routing.md
 87a2d4265bd561b294f7d82c9b801e879d1cf44f5975e53bd83b8750b742a85e  references/questioning-method.md
 4509241b5404de1f249dfe31ad8fe3d0f55c7172d8a970072c0ad34c3d7c87ec  scripts/verify_snapshot.py
 2ff7d92161e5ff9b1e620fb6e56c6b39ceba8cf38b9487374efeae49cff24cf0  SKILL.md
-795d6bc79574d2aec03ad9cfec404bb95083c9dd210e6521e0d4199772d28d44  VERSION
+fe8b23410c0d9003e70c141ca726f3c669bbc0bf7e3acb7ba35f23cf7260332b  VERSION
