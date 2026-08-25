@@ -6,8 +6,8 @@
 | --- | --- |
 | Skill | `advance-business-module` |
 | 通用规范唯一来源 | `https://github.com/Jimokov/advance-business-module` |
-| 当前正式 Release | `v0.8.0` |
-| 锁定提交 | `21048867198e1a6e48c822c72efcfc205f889768` |
+| 当前正式 Release | `v0.9.0` |
+| 锁定提交 | `1d4721b4b174c33652c220bbf8fd3138075f4846` |
 | 项目内生效快照 | `.codex/skills/advance-business-module/` |
 | 同步日期 | 2026-08-25 |
 
