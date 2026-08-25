@@ -9,7 +9,7 @@ description: Safely start, continue, question, review, design, implement, or acc
 
 ## 1. 识别并接管范围
 
-1. 解析当前 `SKILL.md` 的绝对路径，读取同目录 `VERSION`；第一条工作更新必须显示 `已调用 $advance-business-module@<版本>｜来源：<SKILL.md绝对路径>`。`VERSION` 缺失时报告 `unversioned`，不得声称正在使用最新版。
+1. 解析当前 `SKILL.md` 的绝对路径，读取同目录 `VERSION`；若同目录存在 `MANIFEST.sha256` 与 `scripts/verify_snapshot.py`，先运行该脚本验证完整快照，失败或无法验证时停止业务推进并报告。第一条工作更新必须显示 `已调用 $advance-business-module@<版本>｜来源：<SKILL.md绝对路径>`。`VERSION` 缺失时报告 `unversioned`，不得声称正在使用最新版。
 2. 找到项目根目录并完整读取项目 `AGENTS.md`。若存在 `docs/governance/Skill版本锁定.md`，同时读取它，核对实际 Skill 路径与 `VERSION` 是否等于锁定记录；不一致时停止业务推进，先报告来源／版本分叉。
 3. 读取 `docs/00-当前范围与模块登记.md`。
 4. 确认用户指定的模块、所属端和本次阶段。
