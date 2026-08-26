@@ -1,7 +1,0 @@
-interface:
-  display_name: "业务模块推进"
-  short_description: "按资料池继承事实，以受控提问和硬闸门推进业务模块"
-  default_prompt: "使用 $advance-business-module 读取当前资料池，并从已确认阶段继续推进指定业务模块。"
-
-policy:
-  allow_implicit_invocation: true
