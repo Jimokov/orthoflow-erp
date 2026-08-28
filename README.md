@@ -91,7 +91,7 @@
 - [当前范围与模块登记](docs/00-当前范围与模块登记.md)
 - [手术通知 APP 总池](modules/APP-手术通知/00-START-HERE.md)
 - [手术植入 APP 总池](modules/APP-手术植入/00-START-HERE.md)
-- [库存管理总池](modules/库存管理/00-START-HERE.md)
+- [库存管理总池](modules/APP-库存管理/00-START-HERE.md)
 - [跨模块遗产索引 v0.1](docs/跨模块候选资料/跨模块遗产索引-v0.1.md)
 - [手术通知当前设计进度](modules/APP-手术通知/03-设计池/00-当前设计进度.md)
 - [手术通知页面设计总控](modules/APP-手术通知/03-设计池/03-APP页面设计总控-v0.5.md)
